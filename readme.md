@@ -33,4 +33,18 @@ class Product extends Model implements CartItem
 ...
 ```
 
+gulpconfig.js
+
+```js
+module.exports.frontend = {
+    src: {
+        js: [
+            ...
+            modulesDir + '/Cart/static/frontend/js/cart.js'
+        ]
+    }
+}
+```
+
+
 data-* аттибуты  можно посмотреть в шаблоне *cart/index.tpl*
